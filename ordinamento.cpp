@@ -41,7 +41,7 @@ int main() {
 			break;
 		case MERGESORT :
 			cout << "MERGESORT";
-			MergeSort(A, 0, n, B);		//mergeSort(A, 1, n) nello pseudocodice e B è un vettore globale...
+			MergeSort(A, 0, n-1, B);	//mergeSort(A, 1, n) nello pseudocodice e B è un vettore globale...
 			break;
 		case COUNTINGSORT :
 			cout << "COUNTINGSORT";
